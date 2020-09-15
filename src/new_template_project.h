@@ -1,5 +1,5 @@
-#ifndef __swords_and_sorcery_h__
-#define __swords_and_sorcery_h__
+#ifndef __newtemplateproject_h__
+#define __newtemplateproject_h__
 
 #include "panda_sdl/src/general/game.h"
 #include "panda_sdl/src/general/timer.h"

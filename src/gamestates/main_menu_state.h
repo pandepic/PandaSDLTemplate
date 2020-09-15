@@ -1,5 +1,5 @@
-#ifndef __swords_mainmenustate_h__
-#define __swords_mainmenustate_h__
+#ifndef __newtemplateproject_mainmenustate_h__
+#define __newtemplateproject_mainmenustate_h__
 
 #include "../panda_sdl/src/general/gamestate.h"
 
