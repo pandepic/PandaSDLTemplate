@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Settings>
+    <Section Name="Window">
+        <Setting Name="Width" Value="1600" />
+        <Setting Name="Height" Value="900" />
+    </Section>
+    
+    <Section Name="Controls">
+        <Setting Name="MoveUp" Value="W,Up" Type="KEYBOARD" />
+        <Setting Name="MoveDown" Value="S,Down" Type="KEYBOARD" />
+        <Setting Name="MoveLeft" Value="A,Left" Type="KEYBOARD" />
+        <Setting Name="MoveRight" Value="D,Right" Type="KEYBOARD" />
+        <Setting Name="Attack" Value="Space" Type="KEYBOARD" />
+    </Section>
+</Settings>

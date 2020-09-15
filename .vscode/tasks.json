@@ -1,0 +1,91 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "mingw32-make - Build (Debug)",
+            "command": "mingw32-make",
+            "args": [
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}\\build\\debug"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "mingw32-make - Build (Release)",
+            "command": "mingw32-make",
+            "args": [
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}\\build\\release"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "mingw32-make - Rebuild (Debug)",
+            "command": "mingw32-make",
+            "args": [
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}\\build\\debug"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn":["mingw32-make - Clean (Debug)"]
+        },
+        {
+            "type": "shell",
+            "label": "mingw32-make - Rebuild (Release)",
+            "command": "mingw32-make",
+            "args": [
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}\\build\\release"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn":["mingw32-make - Clean (Release)"]
+        },
+        {
+            "type": "shell",
+            "label": "mingw32-make - Clean (Debug)",
+            "command": "mingw32-make clean",
+            "args": [
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}\\build\\debug"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "mingw32-make - Clean (Release)",
+            "command": "mingw32-make clean",
+            "args": [
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}\\build\\release"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+    ]
+}

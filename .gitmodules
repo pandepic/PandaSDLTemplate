@@ -1,0 +1,3 @@
+[submodule "src/panda_sdl"]
+	path = src/panda_sdl
+	url = https://github.com/pandepic/PandaSDL
