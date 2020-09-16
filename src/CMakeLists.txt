@@ -18,7 +18,7 @@ add_executable(NewTemplateProject ${SOURCES})
 
 target_precompile_headers(NewTemplateProject PRIVATE panda_sdl/src/pch.h)
 
-target_include_directories(SwordsAndSorcery PUBLIC "panda_sdl/lib_include")
+target_include_directories(NewTemplateProject PUBLIC "panda_sdl/lib_include")
 target_link_directories(NewTemplateProject PUBLIC "../lib")
 
 target_link_libraries(NewTemplateProject mingw32)

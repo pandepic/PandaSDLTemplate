@@ -1,3 +1,9 @@
+*.exe
+*.smproj
+
+/build/debug/*
+/build/release/*
+
 # Prerequisites
 *.d
 
